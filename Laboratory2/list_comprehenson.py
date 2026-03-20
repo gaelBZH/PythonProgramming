@@ -11,3 +11,8 @@ print(L3)
 # Iterate another List
 L4 = [i+1 for i in L3]
 print(L4)
+
+# Plot
+from math import log as ln
+xs = [0.1 * i for i in range(10)]
+ys = [ln(x) for x in xs]
