@@ -14,5 +14,11 @@ print(L4)
 
 # Plot
 from math import log as ln
-xs = [0.1 * i for i in range(10)]
+xs = [0.1 * i for i in range(1, 50)]
 ys = [ln(x) for x in xs]
+#print(ys)
+
+# Words
+words = input("words : ").split()
+data = [(w, w.upper(), w.capitalize(), w.lower(), len(w)) for w in words]
+print(data)
